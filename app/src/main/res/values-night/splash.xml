@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.ListAnggotaHima.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#0000</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/bg</item>
+        <item name="postSplashScreenTheme">@style/Theme.ListAnggotaHima</item>
+    </style>
+</resources>

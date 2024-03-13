@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ListAnggotaHima" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">#204873</item>
+        <item name="colorPrimaryVariant">#204873</item>
+        <item name="colorPrimaryContainer">#204873</item>
+        <item name="colorOnPrimaryContainer">#204873</item>
+        <item name="colorOnPrimary">#204873</item>
+        <item name="colorSecondary">#204873</item>
+        <item name="android:statusBarColor">#204873</item>
+
+    </style>
+
+
+
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Title" parent="@android:style/TextAppearance">
+
+    </style>
+    <style name="Theme.ListAnggotaHima" parent="Base.Theme.ListAnggotaHima" />
+
+    <style name="Theme.App.SplashScreen" parent="Theme.SplashScreen">
+        <!-- Set the splash screen background, animated icon, and animation
+        duration. -->
+        <item name="windowSplashScreenBackground">@color/white</item>
+
+        <!-- Use windowSplashScreenAnimatedIcon to add a drawable or an animated
+             drawable. One of these is required. -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/bg</item>
+        <!-- Required for animated icons. -->
+
+
+        <!-- Set the theme of the Activity that directly follows your splash
+        screen. This is required. -->
+        <item name="postSplashScreenTheme">@style/Theme.ListAnggotaHima</item>
+    </style>
+</resources>

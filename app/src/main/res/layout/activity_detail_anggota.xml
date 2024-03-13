@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailAnggota"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Detail Anggota"
+                android:fontFamily="@font/boldd"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:layout_centerInParent="true"/>
+
+            <ImageButton
+                android:id="@+id/action_share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="16dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:padding="16dp"
+                android:src="@drawable/baseline_share_24"
+                android:contentDescription="Share" />
+
+        </RelativeLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/namadetail"
+        android:paddingTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:fontFamily="@font/boldd"
+        android:text="Nama"
+        android:textSize="15sp"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/fotodetail"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_below="@+id/namadetail" />
+
+    <TextView
+        android:id="@+id/deskripsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:paddingLeft="20dp"
+        android:textColor="@color/biru"
+        android:paddingRight="20dp"
+        android:fontFamily="@font/semibold"
+        android:layout_below="@id/fotodetail"
+        android:text="Deskripsi &amp; Biodata"
+        android:textAlignment="viewStart" />
+
+    <TextView
+        android:id="@+id/deskripsidetail"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingTop="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/deskripsi"
+        android:text="Deskripsi"
+        android:textAlignment="viewStart" />
+    </RelativeLayout>
+</ScrollView>

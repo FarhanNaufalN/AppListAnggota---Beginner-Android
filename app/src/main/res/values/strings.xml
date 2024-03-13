@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">List Anggota Hima </string>
+
+    <string name="nama_anggota">Nama Anggota</string>
+    <string name="description">Deskripsi</string>
+    <string name="about">About</string>
+    <string name="farhan_naufal_nurdiansyah">Farhan Naufal Nurdiansyah</string>
+    <string name="farhannaufalnr_gmail_com">farhannaufalnr@gmail.com</string>
+    <string-array name="data_name">
+        <item>Farhan Naufal Nurdiansyah</item>
+        <item>Wahyu Fahrizal </item>
+        <item>Dinda Juliana</item>
+        <item>Hilwan Nasep</item>
+        <item>Bhima Arya</item>
+        <item>Firda Rosella</item>
+        <item>Rajih</item>
+        <item>Rafli Maulid</item>
+        <item>Ridhwan</item>
+        <item>Najwa</item>
+        <item>Anastasia</item>
+    </string-array>
+    <string-array name="data_description">
+        <item>Seorang Mahasiswa Teknik Komputer Universitas Pendidikan Indonesia Angkatan 2021 dengan kepribadian yang ceria dan keren \n \nNama Lengkap = Farhan Naufal Nurdiansyah \nNama Panggilan = Ahan \nNIM = 2102555 \nTempat, Tanggal Lahir = Bogor, 02 April 2003 \nHobi = Menggambar, Berenang, Sepeda \nCita-Cita = Polri \nMBTI = ENFJ</item>
+        <item>Merupakan Mahasiswa Teknik Komputer Universitas Pendidikan Indonesia Angkatan 2021 dengan semangat yang menyala-nyala dan penuh dedikasi \n \nNama Lengkap = Wahyu Fahrizal \nNama Panggilan = Wahyu \nNIM = 2103123 \nTempat, Tanggal Lahir = Bandung, 15 September 2002 \nHobi = Bermain musik, Membaca, Berpetualang \nCita-Cita = Pengusaha Sukses \nMBTI = INFP</item>
+        <item>Mahasiswi Teknik Komputer Universitas Pendidikan Indonesia Angkatan 2021 dengan semangat yang tak tergoyahkan dan berdedikasi tinggi \n \nNama Lengkap = Dinda Juliana \nNama Panggilan = Dinda \nNIM = 2103789 \nTempat, Tanggal Lahir = Jakarta, 10 Mei 2003 \nHobi = Menulis, Fotografi, Berpetualang \nCita-Cita = Penulis Terkenal \nMBTI = INFJ</item>
+        <item>Seorang Mahasiswa Teknik Komputer Universitas Pendidikan Indonesia Angkatan 2021 dengan semangat yang berkobar-kobar dan tekad yang kuat \n \nNama Lengkap = Hilwan Nasep \nNama Panggilan = Hilwan \nNIM = 2104889 \nTempat, Tanggal Lahir = Surabaya, 25 Juli 2003 \nHobi = Bermain basket, Menonton film, Mengeksplorasi alam \nCita-Cita = Ilmuwan Terkenal \nMBTI = INTJ</item>
+        <item>Merupakan Mahasiswa Teknik Komputer Universitas Pendidikan Indonesia Angkatan 2021 dengan semangat yang membara dan tekad yang kuat \n \nNama Lengkap = Bhima Arya \nNama Panggilan = Bhima \nNIM = 2105678 \nTempat, Tanggal Lahir = Jakarta, 10 Mei 2002 \nHobi = Bermain basket, Menulis, Mendaki gunung \nCita-Cita = Arsitek Terkenal \nMBTI = ISTP</item>
+        <item>Mahasiswi Teknik Komputer Universitas Pendidikan Indonesia Angkatan 2021 dengan semangat yang membara dan antusias dalam menjalani kehidupan \n \nNama Lengkap = Firda Rosella \nNama Panggilan = Firda \nNIM = 2104567 \nTempat, Tanggal Lahir = Surabaya, 8 Juli 2001 \nHobi = Menari, Melukis, Bermain game \nCita-Cita = Ahli Desain Grafis Terkenal \nMBTI = ENFP</item>
+        <item>Seorang Mahasiswa Teknik Komputer Universitas Pendidikan Indonesia Angkatan 2021 dengan semangat yang gigih dan berdedikasi tinggi dalam mengejar cita-cita \n \nNama Lengkap = Rajih \nNama Panggilan = Rajih \nNIM = 2103789 \nTempat, Tanggal Lahir = Yogyakarta, 25 Mei 2003 \nHobi = Bermain basket, Menulis puisi, Mendaki gunung \nCita-Cita = Peneliti Teknologi Terkemuka \nMBTI = INTJ</item>
+        <item>Merupakan Mahasiswa Teknik Komputer Universitas Pendidikan Indonesia Angkatan 2021 dengan semangat yang bersemangat dan berdedikasi tinggi untuk mencapai impian \n \nNama Lengkap = Rafli Maulid\nNama Panggilan = Rafli \nNIM = 2103567 \nTempat, Tanggal Lahir = Surabaya, 10 Agustus 2002 \nHobi = Travelling, Membaca novel, Bermain game \nCita-Cita = Ahli dalam Bidang Kecerdasan Buatan \nMBTI = ENTP</item>
+        <item>Merupakan Mahasiswa Teknik Komputer Universitas Pendidikan Indonesia Angkatan 2021 dengan semangat yang kuat dan tekad yang bulat dalam mengejar cita-cita \n \nNama Lengkap = Ridwan Pratama \nNama Panggilan = Ridwan \nNIM = 2103876 \nTempat, Tanggal Lahir = Jakarta, 20 Juli 2002 \nHobi = Olahraga, Menulis, Mendaki gunung \nCita-Cita = Ahli dalam Bidang Keamanan Siber \nMBTI = INTJ</item>
+        <item>Seorang Mahasiswi Teknik Komputer Universitas Pendidikan Indonesia Angkatan 2021 dengan semangat yang berkobar-kobar dan selalu bersemangat dalam mengejar impian \n \nNama Lengkap = Najwa Putri \nNama Panggilan = Najwa \nNIM = 2104256 \nTempat, Tanggal Lahir = Surabaya, 10 Mei 2003 \nHobi = Menyanyi, Menari, Menggambar \nCita-Cita = Ahli dalam Bidang Kecerdasan Buatan \nMBTI = ENFP</item>
+        <item>Mahasiswi Teknik Komputer Universitas Pendidikan Indonesia Angkatan 2021 dengan semangat yang membara dan penuh antusiasme dalam mengejar cita-cita \n \nNama Lengkap = Anastasia \nNama Panggilan = Caca \nNIM = 2105337 \nTempat, Tanggal Lahir = Yogyakarta, 28 Juni 2003 \nHobi = Menonton film, Menulis puisi, Mendaki gunung \nCita-Cita = Peneliti dalam Bidang Teknologi Informasi \nMBTI = INFJ</item>
+    </string-array>
+    <integer-array name="data_photo">
+        <item>@drawable/farhan</item>
+        <item>@drawable/wahyu</item>
+        <item>@drawable/dnd</item>
+        <item>@drawable/hilwan</item>
+        <item>@drawable/bima</item>
+        <item>@drawable/firda</item>
+        <item>@drawable/rajih</item>
+        <item>@drawable/rafli</item>
+        <item>@drawable/ridwan</item>
+        <item>@drawable/najwa</item>
+        <item>@drawable/caca</item>
+    </integer-array>
+    <string-array name="data_jabatan">
+        <item>Ketua Dewan Eksekutif</item>
+        <item>Wakil Ketua Dewan Eksekutif</item>
+        <item>Sekretaris</item>
+        <item>Kepala Departemen Media Informasi</item>
+        <item>Staff Departemen Media Informasi</item>
+        <item>Staff Departemen Minat dan Bakat</item>
+        <item>Staff Departemen PSDO</item>
+        <item>Staff Departemen Media Informasi</item>
+        <item>Staff Departemen P2M</item>
+        <item>Staff Departemen Keagamaan</item>
+        <item>Sekretaris II</item>
+    </string-array>
+</resources>

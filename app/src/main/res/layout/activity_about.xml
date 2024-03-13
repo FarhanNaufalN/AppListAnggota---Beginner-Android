@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_about"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".About"
+
+    android:paddingBottom="50dp">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="About"
+                android:fontFamily="@font/boldd"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:layout_centerInParent="true"/>
+
+        </RelativeLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/text_about"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/bolditalic"
+        android:paddingTop="30dp"
+        android:text="@string/about"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/fotoku"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/foto"
+        android:layout_below="@+id/text_about" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/desc_about"
+        android:text="@string/farhan_naufal_nurdiansyah"
+        android:layout_below="@+id/fotoku"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/email"
+        android:textColor="@color/white"
+        android:text="@string/farhannaufalnr_gmail_com"
+        android:layout_below="@+id/fotoku"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="60dp"/>
+
+
+
+</RelativeLayout>
